@@ -22,7 +22,7 @@ public class Main {
                 if(i > 1)
                 {
                     String[] tabChaine = chaine.split(";");
-                    fw.write(tabChaine[0].replace("/","_") + '(' + '"' + tabChaine[0] + '"' + ',' + '"' + tabChaine[1] + '"' + ',' + '"' + tabChaine[2] + '"' + ')' + ',' + "\n");
+                    fw.write(tabChaine[0].replace("/","_").replace("-","_") + '(' + '"' + tabChaine[0] + '"' + ',' + '"' + tabChaine[1] + '"' + ',' + '"' + tabChaine[2] + '"' + ')' + ',' + "\n");
                 }
                 i++;
             }
